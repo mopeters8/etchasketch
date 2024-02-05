@@ -1,0 +1,44 @@
+body {
+  background-color: antiquewhite;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  padding: 2px;
+  border: 2px solid red;
+  border-radius: 10px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.blue {
+  background-color: black;
+}
+
+.row {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  gap: 1px;
+  width: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  align-self: center;
+}
